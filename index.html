@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootsdivapcdn.com/bootsdivap/4.5.0/css/bootsdivap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>My First Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+
+         <input type="text" id="display" class="calculator-screen" placeholder="0"/> 
+        
+        <div class="calculator-keys">
+          
+          <button type="button" class="operator" value="+" onclick="input('+')">+</button>
+          <button type="button" class="operator" value="-" onclick="input('-')">-</button>
+          <button type="button" class="operator" value="*" onclick="input('*')">&times;</button>
+          <button type="button" class="operator" value="/" onclick="input('/')">&divide;</button>
+      
+          <button type="button" value="7" onclick="input(7)">7</button>
+          <button type="button" value="8" onclick="input(8)">8</button>
+          <button type="button" value="9" onclick="input(9)">9</button>
+      
+      
+          <button type="button" value="4" onclick="input(4)">4</button>
+          <button type="button" value="5" onclick="input(5)">5</button>
+          <button type="button" value="6" onclick="input(6)">6</button>
+      
+      
+          <button type="button" value="1" onclick="input(1)">1</button>
+          <button type="button" value="2" onclick="input(2)">2</button>
+          <button type="button" value="3" onclick="input(3)">3</button>
+      
+      
+          <button type="button" value="0" onclick="input(0)">0</button>
+          <button type="button" class="decimal" value="." onclick="input('.')">.</button>
+          <button type="button" class="all-clear" value="ac" onclick="erase()">AC</button>
+      
+          <button type="button" class="equal-sign" value="=" onclick="equal()">=</button>
+      
+        </div>
+      </div>
+      
+      <script src="script.js"></script>
+          
+</body>
+</html>
